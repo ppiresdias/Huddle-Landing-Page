@@ -1,0 +1,87 @@
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  width: 80%;
+}
+
+.logo {
+  display: block;
+  width: 20%;
+  padding: 20px 0 40px 40px;
+}
+
+.desktop-mobile-img {
+  display: inline-block;
+  width: 55%;
+  padding-right: 30px;
+}
+
+.description {
+  display: inline-block;
+  position: absolute;
+  padding: 20px 0 0 40px;
+  width: 47%;
+  height: 55%;
+}
+
+.main-container {
+  position: relative;
+  padding: 65px 0 20px 40px
+}
+
+h1 {
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  width: 90%;
+}
+
+footer {
+  position: absolute;
+  right: 200px;
+  bottom: 50px;
+}
+
+.logo-facebook {
+  padding-right: 10px;
+}
+
+.logo-twitter {
+  padding-right: 10px;
+}
+
+.logo-instagram {
+  padding-right: 10px;
+}
+
+.btn {
+  background-color: #ffffff;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #674baf;
+  font-family: Arial;
+  font-size: 18px;
+  padding: 14px 45px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  width: 15%;
+}
+
+.btn:hover {
+  background-color: #dcdedb;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
